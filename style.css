@@ -1,0 +1,56 @@
+/* Styles for the web app */
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+#app {
+  flex: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.disabled-link {
+  pointer-events: none;
+  color: grey;
+  /* cursor: not-allowed; */
+}
+#numberTable td {
+  text-align: left;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.tabs ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs ul li.active {
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+  padding-bottom: 100px;
+}
+
+.tab-content.active {
+  display: block;
+}
